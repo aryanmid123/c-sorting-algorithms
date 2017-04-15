@@ -35,8 +35,3 @@ void merge_sort(int* A, int n) {
   free(L);
   free(right_arr);
 }
-
-int* sort(int* arr, int s) {
-  merge_sort(arr, s);
-  return arr;
-}

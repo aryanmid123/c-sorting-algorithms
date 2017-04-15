@@ -1,4 +1,4 @@
-int* bubble_sort(int arr[], int s) {
+void bubble_sort(int arr[], int s) {
   unsigned int temp;
   unsigned int swaps;
 
@@ -16,5 +16,4 @@ int* bubble_sort(int arr[], int s) {
       break;
     }
   }
-  return arr;
 }

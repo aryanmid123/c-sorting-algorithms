@@ -8,12 +8,11 @@ int foo = 7;
 int bar = 4;
 
 static char* test_foo() {
-  int unsorted_arr[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+  int arr[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
   int control_arr[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
-  int* sorted_arr = bubble_sort(unsorted_arr, 9);
+  bubble_sort(arr, 9);
 
-  mu_assert("error, array was not sorted",
-            array_equals(control_arr, sorted_arr, 9));
+  mu_assert("error, array was not sorted", array_equals(control_arr, arr, 9));
   return 0;
 }
 

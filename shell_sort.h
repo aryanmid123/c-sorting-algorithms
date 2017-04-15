@@ -1,4 +1,4 @@
-int* shell_sort(int* arr, int s) {
+void shell_sort(int* arr, int s) {
   int j;
 
   for (int gap = s / 2; gap > 0; gap /= 2) {
@@ -10,6 +10,4 @@ int* shell_sort(int* arr, int s) {
       arr[j] = temp;
     }
   }
-
-  return arr;
 }

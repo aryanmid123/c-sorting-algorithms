@@ -1,4 +1,4 @@
-int* insertion_sort(int arr[], int s) {
+void insertion_sort(int arr[], int s) {
   for (int i = 0; i < s; i++) {
     int j = i;
     while (j > 0 && arr[j - 1] > arr[j]) {
@@ -8,5 +8,4 @@ int* insertion_sort(int arr[], int s) {
       j--;
     }
   }
-  return arr;
 }

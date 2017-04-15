@@ -1,4 +1,4 @@
-int* selection_sort(int arr[], int s) {
+void selection_sort(int arr[], int s) {
   int i, j;
 
   for (j = 0; j < s - 1; j++) {
@@ -16,5 +16,4 @@ int* selection_sort(int arr[], int s) {
       arr[iMin] = temp;
     }
   }
-  return arr;
 }
