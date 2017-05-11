@@ -6,6 +6,7 @@ void cocktail_sort(int* arr, int n) {
   int temp;
 
   do {
+    swapped = false;
     for (i = 0; i < n; i++) {
       if (arr[i] > arr[i + 1]) {
         temp = arr[i];
@@ -13,9 +14,6 @@ void cocktail_sort(int* arr, int n) {
         arr[i + 1] = temp;
         swapped = true;
       }
-    }
-    if (!swapped) {
-      break;
     }
     for (int j = i; j > n; j--) {
       if (arr[j] < arr[j + 1]) {
@@ -25,8 +23,6 @@ void cocktail_sort(int* arr, int n) {
         swapped = true;
       }
     }
-    if (!swapped) {
-      break;
-    }
-  } while (1);
+  } while (swapped);
+  return;
 }
