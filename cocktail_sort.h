@@ -5,8 +5,8 @@ Cocktail sort
 A variation of bubble sort
 
 Worst case performance: O(n^2)
-Best case performance: O(n)
-Average performance: O(n^2)
+Best case performance: Ω(n)
+Average performance: Θ(n^2)
 Worst case space complexity: O(1)
 
 */

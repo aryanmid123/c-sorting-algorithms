@@ -2,8 +2,8 @@
 
 Radix sort
 
-Worst case performance: Ω(nk)
-Best case performance: Θ(nk)
+Worst case performance: O(nk)
+Best case performance: Ω(nk)
 Average performance: Θ(nk)
 Worst case space complexity: O(n+k)
 

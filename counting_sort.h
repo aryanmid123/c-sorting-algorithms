@@ -3,8 +3,8 @@
 Counting sort
 
 Worst case performance: O(n+k)
-Best case performance: O(n+k)
-Average performance: O(n+k)
+Best case performance: Ω(n+k)
+Average performance: Θ(n+k)
 Worst case space complexity: O(n+k)
 
 */

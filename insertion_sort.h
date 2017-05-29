@@ -3,8 +3,8 @@
 Insertion sort
 
 Worst case performance: О(n^2)
-Best case performance: O(n)
-Average performance: О(^2)
+Best case performance: Ω(n)
+Average performance: Θ(^2)
 Worst case space complexity: O(n)
 
 */

@@ -3,8 +3,8 @@
 Quick sort
 
 Worst case performance: O(n^2)
-Best case performance: O(n)
-Average performance: O(n\log n)
+Best case performance: Ω(n)
+Average performance: Θ(n log(n))
 Worst case space complexity: O(n)
 
 */
