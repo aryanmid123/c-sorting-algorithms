@@ -1,3 +1,14 @@
+/*
+
+Heap sort
+
+Worst case performance: O(O(n\log n))
+Best case performance: O(O(n\log n))
+Average performance: O(O(n\log n))
+Worst case space complexity: O(1)
+
+*/
+
 void heap_sort(int[], int);
 void build_heap(int[], int);
 void satisfy_heap(int[], int, int);
