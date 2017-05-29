@@ -1,3 +1,14 @@
+/*
+
+Merge sort
+
+Worst case performance: O(n\log n)
+Best case performance: O(n\log n)
+Average performance: O(n\log n)
+Worst case space complexity: O(n)
+
+*/
+
 #include <stdlib.h>
 
 void merge(
