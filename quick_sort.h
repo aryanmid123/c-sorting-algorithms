@@ -1,3 +1,14 @@
+/*
+
+Quick sort
+
+Worst case performance: O(n^2)
+Best case performance: O(n)
+Average performance: O(n\log n)
+Worst case space complexity: O(n)
+
+*/
+
 void quick_sort(int array[], int first_index, int last_index) {
   // declaring index variables
   int pivotIndex, temp, index_a, index_b;
