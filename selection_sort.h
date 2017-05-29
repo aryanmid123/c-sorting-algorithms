@@ -9,13 +9,13 @@ Worst case space complexity: O(1)
 
 */
 
-void selection_sort(int arr[], int s) {
+void selection_sort(int arr[], int n) {
   int i, j;
 
-  for (j = 0; j < s - 1; j++) {
+  for (j = 0; j < n - 1; j++) {
     int iMin = j;
 
-    for (i = j + 1; i < s; i++) {
+    for (i = j + 1; i < n; i++) {
       if (arr[i] < arr[iMin]) {
         iMin = i;
       }

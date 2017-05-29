@@ -13,10 +13,10 @@ void heap_sort(int[], int);
 void build_heap(int[], int);
 void satisfy_heap(int[], int, int);
 
-void heap_sort(int a[], int length) {
-  build_heap(a, length);
+void heap_sort(int a[], int n) {
+  build_heap(a, n);
   int heap_size, i, temp;
-  heap_size = length - 1;
+  heap_size = n - 1;
   for (i = heap_size; i >= 0; i--) {
     temp = a[0];
     a[0] = a[heap_size];
@@ -26,10 +26,10 @@ void heap_sort(int a[], int length) {
   }
 }
 
-void build_heap(int a[], int length) {
+void build_heap(int a[], int n) {
   int i, heap_size;
-  heap_size = length - 1;
-  for (i = (length / 2); i >= 0; i--) {
+  heap_size = n - 1;
+  for (i = (n / 2); i >= 0; i--) {
     satisfy_heap(a, i, heap_size);
   }
 }
