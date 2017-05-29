@@ -12,7 +12,7 @@ Learning sorting algorithms teaches you algorithm design. You will learn how to 
 
 ### arr
 
-Array to be sorted. It is [passed by reference](https://stackoverflow.com/a/1106977/4939630).
+Array to be sorted. Arrays in C are [passed by reference](https://stackoverflow.com/a/1106977/4939630), so changes made to the array inside the function affect the original array.
 
 ### n
 
