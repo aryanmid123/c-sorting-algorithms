@@ -1,3 +1,14 @@
+/*
+
+Bubble sort
+
+Worst case performance: O(n^2)
+Best case performance: O(n)
+Average performance: O(n^2)
+Worst case space complexity: O(1)
+
+*/
+
 void bubble_sort(int arr[], int s) {
   unsigned int temp;
   unsigned int swaps;
