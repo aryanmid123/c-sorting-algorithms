@@ -1,3 +1,14 @@
+/*
+
+Insertion sort
+
+Worst case performance: О(n^2)
+Best case performance: O(n)
+Average performance: О(^2)
+Worst case space complexity: O(n)
+
+*/
+
 void insertion_sort(int arr[], int s) {
   for (int i = 0; i < s; i++) {
     int j = i;
