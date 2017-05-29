@@ -1,3 +1,14 @@
+/*
+
+Selection sort
+
+Worst case performance: O(n^2)
+Best case performance: Ω(n^2)
+Average performance: Θ(n^2)
+Worst case space complexity: O(1)
+
+*/
+
 void selection_sort(int arr[], int s) {
   int i, j;
 
