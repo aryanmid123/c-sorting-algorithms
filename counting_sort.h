@@ -1,3 +1,14 @@
+/*
+
+Counting sort
+
+Worst case performance: O(n+k)
+Best case performance: O(n+k)
+Average performance: O(n+k)
+Worst case space complexity: O(n+k)
+
+*/
+
 #include <stdlib.h>
 
 void counting_sort(int arr[], int n, int max_value) {
