@@ -1,3 +1,14 @@
+/*
+
+Radix sort
+
+Worst case performance: Ω(nk)
+Best case performance: Θ(nk)
+Average performance: Θ(nk)
+Worst case space complexity: O(n+k)
+
+*/
+
 int find_largest_number(int* arr, int n) {
 
   int i;
