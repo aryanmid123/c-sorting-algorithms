@@ -13,7 +13,7 @@ Worst case space complexity: O(n+k)
 
 void counting_sort(int arr[], int n, int max_value) {
   int i;
-  int* counts = calloc(max_value, sizeof(*counts));
+  int* counts = (int *) calloc(max_value, sizeof(*counts));
 
   // Create array that holds number of counts
   for (i = 0; i < n; i++) {
