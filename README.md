@@ -52,3 +52,7 @@ Big-O | Name | Description
 **O(2^n)** | exponential | **Very poor performance.** You want to avoid these kinds of algorithms, but sometimes you have no choice. Adding just one bit to the input doubles the running time. Example: traveling salesperson problem.
 **O(n!)** | factorial | **Intolerably slow.** It literally takes a million years to do anything.
 
+## Why C?
+
+C is a low level high level language. It's close enough to the metal that we still have to consider memory management. Being able to see how we manage memory in the algorithm makes it easier to calculate the running time.
+
