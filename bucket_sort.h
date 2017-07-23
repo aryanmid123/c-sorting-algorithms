@@ -1,3 +1,14 @@
+/*
+
+Bucket sort
+
+Worst case performance: O(n^2)
+Best case performance: Ω(n)
+Average performance: Θ(n)
+Worst case space complexity: O(n)
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
