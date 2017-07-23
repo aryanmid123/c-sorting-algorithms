@@ -10,7 +10,6 @@
    * [arr](#arr)
    * [n](#n)
 * [Time complexity](#time-complexity)
-   * [arr](#arr)
    * [Big O](#big-o)
 
 ## <a name="why-sorting-algorithms"></a> Why sorting algorithms?
