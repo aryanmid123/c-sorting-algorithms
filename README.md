@@ -69,3 +69,12 @@ Big-O | Name | Description
 ## <a name="algorithms"></a> Algorithms
 
 - [Bubble sort](/bubble_sort.h)
+- [Cocktail sort](/cocktail_sort.h)
+- [Counting sort](/counting_sort.h)
+- [Gnome sort](/gnome_sort.h)
+- [Heap sort](/heap_sort.h)
+- [Insertion sort](/insertion_sort.h)
+- [Merge sort](/merge_sort.h)
+- [Quick sort](/quick_sort.h)
+- [Radix sort](/radix_sort.h)
+- [Shell sort](/shell_sort.h)
