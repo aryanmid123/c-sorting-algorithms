@@ -11,6 +11,7 @@
    * [n](#n)
 * [Time complexity](#time-complexity)
    * [Big O](#big-o)
+* [Algorithms](#algorithms)
 
 ## <a name="why-sorting-algorithms"></a> Why sorting algorithms?
 
@@ -65,3 +66,6 @@ Big-O | Name | Description
 **O(2^n)** | exponential | **Very poor performance.** You want to avoid these kinds of algorithms, but sometimes you have no choice. Adding just one bit to the input doubles the running time. Example: traveling salesperson problem.
 **O(n!)** | factorial | **Intolerably slow.** It literally takes a million years to do anything.
 
+## <a name="algorithms"></a> Algorithms
+
+- [Bubble sort](/bubble_sort.h)
