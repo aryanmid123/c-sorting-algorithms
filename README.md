@@ -2,23 +2,38 @@
 
 📦 A collection of sorting algorithms written in C.
 
-## Why sorting algorithms?
+## Table of contents
+
+* [Why sorting algorithms?](#why-sorting-algorithms)
+* [Why C?](#why-c)
+* [Arguments](#arguments)
+   * [arr](#arr)
+   * [n](#n)
+* [Time complexity](#time-complexity)
+   * [arr](#arr)
+   * [Big O](#big-o)
+
+## <a name="why-sorting-algorithms"></a> Why sorting algorithms?
 
 Most languages already have a sort method implemented in standard libraries, so why learn sorting algorithms?
  
 Learning sorting algorithms teaches you algorithm design. You will learn how to use paradigms like [divide and conquer](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm), how to measure algorithm efficiency and when to use different sorting algorithms to maximize efficiency.
 
-## Arguments
+## <a name="why-c"></a> Why C?
 
-### arr
+C is a low level high level language. It's close enough to the metal that we still have to consider memory management. Being able to see how we manage memory in the algorithm makes it easier to calculate the running time.
+
+## <a name="arguments"></a>Arguments
+
+### <a name="arr"></a>arr
 
 Array to be sorted. Arrays in C are [passed by reference](https://stackoverflow.com/a/1106977/4939630), so changes are made to the array in place.
 
-### n
+### <a name="n"></a>n
 
 Number of elements in `arr`. 
 
-## Time complexity
+## <a name="time-complexity"></a> Time complexity
 
 Time complexity is a way of measuring how long an algorithm takes to run.
 
@@ -32,8 +47,7 @@ Instead, we measure the *relative* running time.
 
 To do this, we count the number of operations performed in the algorithm.
 
-
-### Big O
+### <a name="big-o"></a> Big O
 
 Big O notation measures the relative time an algorithm takes to run given the worst case. In our sorting algorithms example, the worst case depends on the algorithm. It is whatever case would cause the algorithm to take the longest time to complete.
 
@@ -51,8 +65,4 @@ Big-O | Name | Description
 **O(n^3)** | cubic | **Poor performance.** If you have 100 items, this does 100^3 = 1,000,000 units of work. Doubling the input size makes it eight times slower. Example: matrix multiplication.
 **O(2^n)** | exponential | **Very poor performance.** You want to avoid these kinds of algorithms, but sometimes you have no choice. Adding just one bit to the input doubles the running time. Example: traveling salesperson problem.
 **O(n!)** | factorial | **Intolerably slow.** It literally takes a million years to do anything.
-
-## Why C?
-
-C is a low level high level language. It's close enough to the metal that we still have to consider memory management. Being able to see how we manage memory in the algorithm makes it easier to calculate the running time.
 
