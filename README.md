@@ -1,6 +1,6 @@
 # c-sorting-algorithms
 
-A collection of sorting algorithms written in C.
+📦 A collection of sorting algorithms written in C.
 
 ## Why sorting algorithms?
 
