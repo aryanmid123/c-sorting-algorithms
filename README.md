@@ -69,6 +69,7 @@ Big-O | Name | Description
 ## <a name="algorithms"></a> Algorithms
 
 - [Bubble sort](/bubble_sort.h)
+- [Bucket sort](/bucket_sort.h)
 - [Cocktail sort](/cocktail_sort.h)
 - [Counting sort](/counting_sort.h)
 - [Gnome sort](/gnome_sort.h)
