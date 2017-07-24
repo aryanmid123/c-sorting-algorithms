@@ -8,7 +8,7 @@ int foo = 7;
 int bar = 4;
 
 static char* test_foo() {
-  int arr[9] = {4, 9, 5, 6, 8, 7, 1, 2, 3 };
+  int arr[9] = {4, 9, 5, 6, 8, 7, 1, 2, 3};
   int control_arr[9] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
   cocktail_sort(arr, 9);
 
