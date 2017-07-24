@@ -19,11 +19,15 @@ void counting_sort(int arr[], int n, int max_value) {
   for (i = 0; i < n; i++) {
     counts[arr[i]]++;
   }
-  int outIndex = 0;
-  for (int i = 0; i < n; i++) {
+
+  int out_index = 0;
+
+  for (int i = 0; i < n + 1; i++) {
     for (int j = 0; j < counts[i]; j++) {
-      arr[outIndex++] = i;
+      arr[out_index] = i;
+      out_index++;
     }
   }
+
   free(counts);
 }
