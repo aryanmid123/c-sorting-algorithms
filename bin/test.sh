@@ -2,7 +2,7 @@
 
 set -e
 
-make clean
+make clean || echo "nothing to clean"
 
 make
 
