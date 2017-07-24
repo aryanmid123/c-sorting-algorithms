@@ -8,4 +8,4 @@ all: $(TARGETS)
 	$(CXX) -std=c99  -o $@ $^
 
 clean:
-	rm $(TARGETS)
+	-rm $(TARGETS)
