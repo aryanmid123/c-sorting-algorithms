@@ -10,32 +10,38 @@ Average performance: Θ(n^2)
 Worst case space complexity: O(1)
 
 */
-
+/*
+ * C Program to Implement CockTail Sort
+ */
 #include <stdbool.h>
 
 void cocktail_sort(int arr[], int n) {
-  int swapped = false;
-  int i;
-  int temp;
+  bool swapped = true;
+  int i = 0;
+  int j = n - 1;
 
-  do {
+  while (i < j && swapped) {
     swapped = false;
-    for (i = 0; i < n; i++) {
-      if (arr[i] > arr[i + 1]) {
-        temp = arr[i];
-        arr[i] = arr[i + 1];
-        arr[i + 1] = temp;
+    for (int k = i; k < j; k++) {
+      if (arr[k] > arr[k + 1]) {
+        int temp = arr[k];
+        arr[k] = arr[k + 1];
+        arr[k + 1] = temp;
         swapped = true;
       }
     }
-    for (int j = i; j > n; j--) {
-      if (arr[j] < arr[j + 1]) {
-        temp = arr[j];
-        arr[j] = arr[j + 1];
-        arr[j + 1] = temp;
-        swapped = true;
+    j--;
+    if (swapped) {
+      swapped = false;
+      for (int k = j; k > i; k--) {
+        if (arr[k] < arr[k - 1]) {
+          int temp = arr[k];
+          arr[k] = arr[k - 1];
+          arr[k - 1] = temp;
+          swapped = true;
+        }
       }
     }
-  } while (swapped);
-  return;
+    i++;
+  }
 }
