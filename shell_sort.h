@@ -9,7 +9,7 @@ Worst case space complexity: O(1)
 
 */
 
-void shell_sort(int* arr, int n) {
+void shell_sort(int arr[], int n) {
   int j;
 
   for (int gap = n / 2; gap > 0; gap /= 2) {

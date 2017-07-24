@@ -9,7 +9,7 @@ Worst case space complexity: O(n+k)
 
 */
 
-int find_largest_number(int* arr, int n) {
+int find_largest_number(int arr[], int n) {
 
   int i;
   int largest_number = -1;

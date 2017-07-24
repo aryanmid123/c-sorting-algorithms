@@ -9,7 +9,7 @@ Worst case space complexity: O(n)
 
 */
 
-void quick_sort(int array[], int first_index, int last_index) {
+void quick_sort(int arr[], int first_index, int last_index) {
   // declaring index variables
   int pivotIndex, temp, index_a, index_b;
 
@@ -21,28 +21,28 @@ void quick_sort(int array[], int first_index, int last_index) {
 
     // Sorting in Ascending order with quick sort
     while (index_a < index_b) {
-      while (array[index_a] <= array[pivotIndex] && index_a < last_index) {
+      while (arr[index_a] <= arr[pivotIndex] && index_a < last_index) {
         index_a++;
       }
-      while (array[index_b] > array[pivotIndex]) {
+      while (arr[index_b] > arr[pivotIndex]) {
         index_b--;
       }
 
       if (index_a < index_b) {
         // Swapping operation
-        temp = array[index_a];
-        array[index_a] = array[index_b];
-        array[index_b] = temp;
+        temp = arr[index_a];
+        arr[index_a] = arr[index_b];
+        arr[index_b] = temp;
       }
     }
 
     // At the end of first iteration, swap pivot element with index_b element
-    temp = array[pivotIndex];
-    array[pivotIndex] = array[index_b];
-    array[index_b] = temp;
+    temp = arr[pivotIndex];
+    arr[pivotIndex] = arr[index_b];
+    arr[index_b] = temp;
 
     // Recursive call for quick sort, with partitioning
-    quick_sort(array, first_index, index_b - 1);
-    quick_sort(array, index_b + 1, last_index);
+    quick_sort(arr, first_index, index_b - 1);
+    quick_sort(arr, index_b + 1, last_index);
   }
 }

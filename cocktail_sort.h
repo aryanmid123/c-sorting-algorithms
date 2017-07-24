@@ -13,7 +13,7 @@ Worst case space complexity: O(1)
 
 #include <stdbool.h>
 
-void cocktail_sort(int* arr, int n) {
+void cocktail_sort(int arr[], int n) {
   int swapped = false;
   int i;
   int temp;

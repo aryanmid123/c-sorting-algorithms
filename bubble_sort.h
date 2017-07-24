@@ -9,13 +9,13 @@ Worst case space complexity: O(1)
 
 */
 
-void bubble_sort(int arr[], int s) {
+void bubble_sort(int arr[], int n) {
   unsigned int temp;
   unsigned int swaps;
 
-  for (unsigned int i = 0; i < s; i++) {
+  for (unsigned int i = 0; i < n; i++) {
     swaps = 0;
-    for (unsigned int j = 0; j < s; j++) {
+    for (unsigned int j = 0; j < n; j++) {
       if (arr[j] > arr[j + 1]) {
         temp = arr[j];
         arr[j] = arr[j + 1];

@@ -29,7 +29,7 @@ void merge(
   while (j < right_count) arr[k++] = right_arr[j++];
 }
 
-void merge_sort(int* A, int n) {
+void merge_sort(int arr[], int n) {
   int mid, i, *L, *right_arr;
   if (n < 2) return;
   mid = n / 2;
@@ -37,12 +37,12 @@ void merge_sort(int* A, int n) {
   L = (int*)malloc(mid * sizeof(int));
   right_arr = (int*)malloc((n - mid) * sizeof(int));
 
-  for (i = 0; i < mid; i++) L[i] = A[i];
-  for (i = mid; i < n; i++) right_arr[i - mid] = A[i];
+  for (i = 0; i < mid; i++) L[i] = arr[i];
+  for (i = mid; i < n; i++) right_arr[i - mid] = arr[i];
 
   merge_sort(L, mid);
   merge_sort(right_arr, n - mid);
-  merge(A, L, mid, right_arr, n - mid);
+  merge(arr, L, mid, right_arr, n - mid);
   free(L);
   free(right_arr);
 }

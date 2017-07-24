@@ -39,7 +39,7 @@ int get_divisor(int num) {
 
 
 // Function to Perform bucketSort
-void bucket_sort(int* arr, int n, int max) {
+void bucket_sort(int arr[], int n, int max) {
 
   struct list list_arr[n];
   int divisor = get_divisor(max);
