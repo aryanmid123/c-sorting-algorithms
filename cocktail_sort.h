@@ -10,9 +10,7 @@ Average performance: Θ(n^2)
 Worst case space complexity: O(1)
 
 */
-/*
- * C Program to Implement CockTail Sort
- */
+
 #include <stdbool.h>
 
 void cocktail_sort(int arr[], int n) {
