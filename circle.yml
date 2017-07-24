@@ -1,5 +1,5 @@
 dependencies:
-  pre::
+  pre:
     - sudo apt-get install clang-3.4
 
 test:
