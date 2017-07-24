@@ -21,7 +21,7 @@ Learning sorting algorithms teaches you algorithm design. You will learn how to 
 
 ## <a name="why-c"></a> Why C?
 
-C is a low level high level language. It's close enough to the metal that we still have to consider memory management. Being able to see how we manage memory in the algorithm makes it easier to calculate the running time.
+C is a low level high level language. It's close enough to the metal that we still have to consider memory management. Being able to see how we manage memory in the algorithm makes it easier to calculate the running time. At the same time it's a high level language, so the syntax is human readable. A lot of languages are based on C, so the syntax will be familiar to many developers.
 
 ## <a name="arguments"></a>Arguments
 
