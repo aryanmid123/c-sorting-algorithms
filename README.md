@@ -17,7 +17,7 @@
 
 Most languages already have a sort method implemented in standard libraries, so why learn sorting algorithms?
  
-Learning sorting algorithms teaches you algorithm design. You will learn how to use paradigms like [divide and conquer](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm), how to measure algorithm efficiency and when to use different sorting algorithms to maximize efficiency.
+Learning sorting algorithms teaches you algorithm design. You will learn how to use paradigms like [divide and conquer](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm), how to measure algorithm complexity and when to use different sorting algorithms to maximize efficiency.
 
 ## <a name="why-c"></a> Why C?
 
