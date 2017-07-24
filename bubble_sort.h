@@ -11,20 +11,19 @@ Worst case space complexity: O(1)
 
 void bubble_sort(int arr[], int n) {
   unsigned int temp;
-  unsigned int swaps;
+  int i;
+  int j;
 
-  for (unsigned int i = 0; i < n; i++) {
-    swaps = 0;
-    for (unsigned int j = 0; j < n; j++) {
-      if (arr[j] > arr[j + 1]) {
+  while (i < n) {
+    j = 0;
+    while (j < i) {
+      if (arr[j] > arr[i]) {
         temp = arr[j];
-        arr[j] = arr[j + 1];
-        arr[j + 1] = temp;
-        swaps++;
+        arr[j] = arr[i];
+        arr[i] = temp;
       }
+      j++;
     }
-    if (swaps == 0) {
-      break;
-    }
+    i++;
   }
 }
