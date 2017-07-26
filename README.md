@@ -79,3 +79,4 @@ Big-O | Name | Description
 - [Quick sort](/quick_sort.h)
 - [Radix sort](/radix_sort.h)
 - [Shell sort](/shell_sort.h)
+- [Tree sort](/tree_sort.h)
