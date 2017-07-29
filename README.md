@@ -49,9 +49,9 @@ To do this, we count the number of operations performed in the algorithm.
 
 ### <a name="big-o"></a> Big O
 
-Big O notation measures the relative time an algorithm takes to run given the worst case. In our sorting algorithms example, the worst case depends on the algorithm. It is whatever case would cause the algorithm to take the longest time to complete.
+Big O notation measures the relative time an algorithm takes to run given the worst case.
 
-only cares about the big picture. Generally we only care about the rough running time.
+Big O only cares about the big picture. Generally we only care about the rough running time,m so constant actions aren't included in the calculation.
 
 Here's a table to use as a reference when looking through the algorithms in this project:
 
