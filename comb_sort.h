@@ -11,7 +11,7 @@ Worst case space complexity: O(1)
 #include <stdbool.h>
 
 void comb_sort(int arr[], int n) {
-  unsigned int temp;
+  int temp;
   int i;
   int j;
   int gap = n;

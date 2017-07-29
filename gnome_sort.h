@@ -10,8 +10,8 @@ Worst case space complexity: O(1)
 */
 
 void gnome_sort(int arr[], int n) {
-  unsigned int i = 0;
-  unsigned int temp;
+  int i = 0;
+  int temp;
 
   while (i < n) {
     if (i == 0 || arr[i] >= arr[i - 1]) {
