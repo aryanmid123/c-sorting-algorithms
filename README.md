@@ -77,6 +77,7 @@ Big-O | Name | Description
 - [Heap sort](/heap_sort.h)
 - [Insertion sort](/insertion_sort.h)
 - [Merge sort](/merge_sort.h)
+- [Odd-even sort](/odd_even_sort.h)
 - [Quick sort](/quick_sort.h)
 - [Radix sort](/radix_sort.h)
 - [Shell sort](/shell_sort.h)
