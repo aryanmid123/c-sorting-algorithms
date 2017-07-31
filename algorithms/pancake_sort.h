@@ -1,3 +1,12 @@
+/*
+
+Pancake sort
+
+Worst case performance: O(n^2)
+Worst case space complexity: O(n)
+
+*/
+
 #include <stdlib.h>
 
 void flip(int arr[], int i) {
