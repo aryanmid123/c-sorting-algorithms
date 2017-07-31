@@ -1,3 +1,14 @@
+/*
+
+Bogo sort
+
+Worst case performance: O((n+1)!)
+Best case performance: Ω(n)
+Average performance: Θ((n+1)!)
+Worst case space complexity: O(n)
+
+*/
+
 #include <stdbool.h>
 #include <stdlib.h>
 
