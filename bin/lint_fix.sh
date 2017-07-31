@@ -1,2 +1,2 @@
 clang-format */*.c -i
-clang-format *.h -i
+clang-format */*.h -i
