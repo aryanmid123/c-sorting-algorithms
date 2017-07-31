@@ -79,6 +79,7 @@ Big-O | Name | Description
 - [Insertion sort](/algorithms/insertion_sort.h)
 - [Merge sort](/algorithms/merge_sort.h)
 - [Odd-even sort](/algorithms/odd_even_sort.h)
+- [Pancake sort](/algorithms/pancake_sort.h)
 - [Quick sort](/algorithms/quick_sort.h)
 - [Radix sort](/algorithms/radix_sort.h)
 - [Shell sort](/algorithms/shell_sort.h)
