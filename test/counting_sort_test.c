@@ -1,4 +1,4 @@
-#include "../counting_sort.h"
+#include "../algorithms/counting_sort.h"
 #include "array_equals.h"
 #include "minunit.h"
 #include <stdio.h>

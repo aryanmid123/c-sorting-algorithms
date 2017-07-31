@@ -1,4 +1,4 @@
-#include "../odd_even_sort.h"
+#include "../algorithms/odd_even_sort.h"
 #include "array_equals.h"
 #include "minunit.h"
 #include <stdio.h>

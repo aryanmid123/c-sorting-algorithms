@@ -1,4 +1,4 @@
-#include "../shell_sort.h"
+#include "../algorithms/shell_sort.h"
 #include "array_equals.h"
 #include "minunit.h"
 #include <stdio.h>

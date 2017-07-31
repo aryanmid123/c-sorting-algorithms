@@ -1,4 +1,4 @@
-#include "../bucket_sort.h"
+#include "../algorithms/bucket_sort.h"
 #include "array_equals.h"
 #include "minunit.h"
 #include <stdio.h>

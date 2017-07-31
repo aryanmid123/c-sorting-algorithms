@@ -1,4 +1,4 @@
-#include "../comb_sort.h"
+#include "../algorithms/comb_sort.h"
 #include "array_equals.h"
 #include "minunit.h"
 #include <stdio.h>
